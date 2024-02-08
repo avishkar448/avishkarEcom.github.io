@@ -126,6 +126,7 @@
 
 .cont {
   margin-left: 50px;
+  overflow-y: scroll;
 }
 
 /* footer */
