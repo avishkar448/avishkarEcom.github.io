@@ -101,33 +101,35 @@
   margin: 10px;
 }
 
+.mainimg img {
+  width: 400px;
+}
+.cont {
+  width: 50%;
+  height: auto;
+}
+.mainimg{
+  width: 50%;
+  height: auto;
+}
 .content {
   border: 2px solid black;
   margin: 10px 0;
   border-radius: 4px;
-}
-
-.mainimg img {
-  width: 450px;
-}
-
-.content {
   display: flex;
-  width: 80vw;
   align-items: center;
   justify-content: center;
-  overflow: scroll;
+  width: 70vw;
+  /* overflow: hidden; */
+  
 }
 .x {
   display: flex;
   justify-content: center;
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
 }
 
-.cont {
-  margin-left: 50px;
-}
 
 /* footer */
 .foot-panel1 {
