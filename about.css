@@ -102,15 +102,17 @@
 }
 
 .mainimg img {
-  width: 400px;
+  width: 100%;
 }
 .cont {
   width: 50%;
   height: auto;
+  padding: 20px;
 }
 .mainimg{
   width: 50%;
   height: auto;
+  padding-right: 20px;
 }
 .content {
   border: 2px solid black;
@@ -119,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70vw;
+  width: 90vw;
   /* overflow: hidden; */
   
 }
