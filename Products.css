@@ -124,7 +124,8 @@
     margin-top: 15px; 
     /* border: 2px solid black; */
     height: 370px;
-    width: 17%;
+    /* width: 17%; */
+    width: 270px;
     background-color:white;
     padding: 20px 0px 15px;
 }
@@ -185,12 +186,11 @@
     
 }
 
-
-
 .container12 .row{ 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .foot-panel2 h3{ 
@@ -199,8 +199,7 @@
 }
 
 .foot-panel2 p,li{ 
-    color: #8a8a8a;
-    
+    color: #8a8a8a;   
 }
 
 .foot-panel2 ul{ 
@@ -209,8 +208,8 @@
 
 
 .col-1 img{ 
-    height: 150px;
-    width: 350px;
+    height: 80px;
+    width: 200px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
