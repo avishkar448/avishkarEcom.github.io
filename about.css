@@ -113,9 +113,10 @@
 
 .content {
   display: flex;
-  width: 70vw;
+  width: 80vw;
   align-items: center;
   justify-content: center;
+  overflow: scroll;
 }
 .x {
   display: flex;
@@ -126,7 +127,6 @@
 
 .cont {
   margin-left: 50px;
-  overflow-y: scroll;
 }
 
 /* footer */
