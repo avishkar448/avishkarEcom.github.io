@@ -126,7 +126,7 @@
 /* box1 */
 
 .shop-section1{
-    height: 300px; 
+    /* height: 300px;  */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -179,7 +179,7 @@
 
 /* shop-section 2 */
 .shop-section2{
-    height: 600px; 
+    /* height: 600px;  */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -236,12 +236,11 @@
     
 }
 
-
-
 .container12 .row{ 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .foot-panel2 h3{ 
@@ -259,8 +258,8 @@
 
 
 .col-1 img{ 
-    height: 150px;
-    width: 350px;
+    height: 80px;
+    width: 200px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
