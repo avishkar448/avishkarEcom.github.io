@@ -271,6 +271,7 @@ iframe{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .foot-panel2 h3{ 
@@ -288,8 +289,8 @@ iframe{
 
 
 .col-1 img{ 
-    height: 150px;
-    width: 350px;
+    height: 80px;
+    width: 200px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
